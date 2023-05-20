@@ -15,10 +15,24 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      gap: 10px;
     }
 
     .pricing-plan {
-      /* align-content: center; */
+      width: 300px;
+      background-color: lightgrey;
+      padding: 10px;
+    }
+
+    .pricing-plan * {
+      text-align: center;
+      list-style: none;
+      padding: 2px;
+      /* margin: 0; */
+    }
+
+    .plan-button {
+      justify-content: center;
     }
 
     /* Hint: What can you do with a media query and flexbox? */
@@ -26,7 +40,6 @@
       .pricing-container {
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
       }
     }
   </style>
